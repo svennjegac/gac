@@ -13,6 +13,6 @@ If you don't have valid session, it will log you in via standard `gimme-aws-cred
 Afterward, you can just call `gac <profile2>` and it will log you into your second AWS profile.
 If you don't have valid session, it will log you in via standard `gimme-aws-creds` command.
 
-Now, if you call again `gac <profile>`, it won't prompt you with slow flow via Okta and MFA, but it will use cached credentials.
+Now, if you call `gac <profile>` again, you won't need to execute slow flow via Okta and MFA, but GAC will use your cached credentials (from previous login).
 It caches credentials for as many profiles as you want.
-Credentials are cached until they expire. If they expire, it will log you in again via standard `gimme-aws-creds` command.
+Credentials are cached until they expire. If they expire, it will log you in again via standard `gimme-aws-creds` command (slow Okta and MFA flow).
