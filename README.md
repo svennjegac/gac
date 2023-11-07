@@ -10,7 +10,7 @@ You must have your `gimme-aws-creds` profiles already configured and stored in `
 Then just call `gac <profile>` and it will log you into your AWS profile.
 If you don't have valid session, it will log you in via standard `gimme-aws-creds` command.
 
-After just call `gac <profile2>` and it will log you into your AWS profile.
+Afterward, you can just call `gac <profile2>` and it will log you into your second AWS profile.
 If you don't have valid session, it will log you in via standard `gimme-aws-creds` command.
 
 Now, if you call again `gac <profile>`, it won't prompt you with slow flow via Okta and MFA, but it will use cached credentials.
