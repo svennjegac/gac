@@ -5,7 +5,7 @@ gimme aws creds utils
 `go install github.com/svennjegac/gac/cmd/gac@e29acb08127399bbfd4906c4864751d58e77bd89`
 
 ## Usage
-You must have your gimme aws profiles already configured and stored in `~/.okta_aws_login_config` file.
+You must have your `gimme-aws-creds` profiles already configured and stored in `~/.okta_aws_login_config` file.
 
 Then just call `gac <profile>` and it will log you into your AWS profile.
 If you don't have valid session, it will log you in via standard `gimme-aws-creds` command.
